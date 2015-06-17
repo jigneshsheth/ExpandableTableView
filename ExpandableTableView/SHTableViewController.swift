@@ -2,7 +2,7 @@
 //  SHTableViewController.swift
 //  ExpandableTableView
 //
-//  Created by PhoneScreen on 6/16/15.
+//  Created by Jignesh Sheth on 6/16/15.
 //  Copyright (c) 2015 sheth. All rights reserved.
 //
 
