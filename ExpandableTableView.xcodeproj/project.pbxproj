@@ -14,6 +14,7 @@
 		8D3FD3381B31294700A51CAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D3FD3361B31294700A51CAA /* LaunchScreen.xib */; };
 		8D3FD3441B31294700A51CAA /* ExpandableTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3FD3431B31294700A51CAA /* ExpandableTableViewTests.swift */; };
 		8D3FD34E1B312A0A00A51CAA /* SHTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3FD34D1B312A0A00A51CAA /* SHTableViewController.swift */; };
+		8D3FD3511B314E0300A51CAA /* ExpandableTableView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D3FD3501B314E0300A51CAA /* ExpandableTableView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8D3FD3421B31294700A51CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3FD3431B31294700A51CAA /* ExpandableTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewTests.swift; sourceTree = "<group>"; };
 		8D3FD34D1B312A0A00A51CAA /* SHTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHTableViewController.swift; sourceTree = "<group>"; };
+		8D3FD3501B314E0300A51CAA /* ExpandableTableView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ExpandableTableView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8D3FD3271B31294700A51CAA /* ExpandableTableView */ = {
 			isa = PBXGroup;
 			children = (
+				8D3FD34F1B314DF400A51CAA /* Resource */,
 				8D3FD32A1B31294700A51CAA /* AppDelegate.swift */,
 				8D3FD3311B31294700A51CAA /* Main.storyboard */,
 				8D3FD3341B31294700A51CAA /* Images.xcassets */,
@@ -113,6 +116,14 @@
 				8D3FD3421B31294700A51CAA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D3FD34F1B314DF400A51CAA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8D3FD3501B314E0300A51CAA /* ExpandableTableView.gif */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			files = (
 				8D3FD3331B31294700A51CAA /* Main.storyboard in Resources */,
 				8D3FD3381B31294700A51CAA /* LaunchScreen.xib in Resources */,
+				8D3FD3511B314E0300A51CAA /* ExpandableTableView.gif in Resources */,
 				8D3FD3351B31294700A51CAA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +427,7 @@
 				8D3FD3491B31294700A51CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D3FD34A1B31294700A51CAA /* Build configuration list for PBXNativeTarget "ExpandableTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				8D3FD34C1B31294700A51CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
